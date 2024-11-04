@@ -2348,6 +2348,7 @@ ul.info {
 
 	ul.info li {
 		flex: 1; /* Allows each item to take up available space */
+		padding: 0;
 		text-align: center;
 	}
 	ul.info li.text {
