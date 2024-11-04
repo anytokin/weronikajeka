@@ -2337,42 +2337,34 @@ input, select, textarea {
 /* Info */
 
 ul.info {
-	cursor: default;
 	display: flex;
-	justify-content: space-evenly; 
-	list-style-type: none;
-	padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 	ul.info li {
-		display: inline-block;
-		
+		flex: 1; /* Allows each item to take up available space */
+		text-align: center;
+	}
+	ul.info li.text {
+		flex: 1; /* Allows each item to take up available space */
+		text-align: center;
 	}
 
-		ul.info li{
-			padding: 0% !important;
-		}
+	@media screen and (max-width: 550px) {
 
-	ul.info.major {
-		padding: 1em 0;
+		ul.info  {
+			display: grid !important;
+			justify-content: normal;
+		}
 	}
 
-		ul.info.major li {
-			padding-right: 3.5em;
-		}
 
-			@media screen and (max-width: 736px) {
 
-				ul.info.major li {
-					
-					padding: 0 1em !important;
-				}
-			
-					ul.info li:first-child {
-						display: none;
-					}
-
-			}
 
 /* Table */
 
