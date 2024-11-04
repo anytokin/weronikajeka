@@ -284,6 +284,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.with-spacing {
+		text-align: right;
+		padding-right: 10px;
+
+	}
+
 /* Row */
 
 	.row {
