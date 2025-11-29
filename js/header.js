@@ -11,6 +11,7 @@ document.write(`
                             <li><b><a href="./">HOME</a></b></li>
                             <li><a href="o_mnie.html">O MNIE</a></li>
                             <li><a href="oferta.html">OFERTA</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
                             <li><a href="kontakt.html">KONTAKT</a></li>
                         </ul>
                     </div>
