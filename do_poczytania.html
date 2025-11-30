@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
+        <script src="https://kit.fontawesome.com/efc65d2b42.js" crossorigin="anonymous"></script>
 
         <style>
             .features li {
@@ -37,6 +37,13 @@
             .features li a.feature-link:hover h3 {
                 text-decoration: none;
             }
+            .features li .feature-icon {
+                display: block;
+                margin-bottom: 1.5rem;
+                font-size: 2.5rem;
+                text-align: center;
+                color: #e7bd7e;; /* twój turkus */
+        }
         </style>
 
     </head>
@@ -54,65 +61,89 @@
                     <h2>DO POCZYTANIA</h2>
                 </header>
 
-                <!-- KAFELKI / KARTY TEMATYCZNE -->
-                <section class="wrapper style5">
-                    <div class="inner">
-                        <ul class="features">
-                            <li class="icon fa-comments">
-                                <a href="#kiedy-konsultacja" class="feature-link">
-                                    <h3>Kiedy warto zgłosić się na konsultację</h3>
-                                    <p>
-                                        O tym, w jakich sytuacjach warto rozważyć spotkanie z psychologiem
-                                        i dlaczego nie trzeba „zasłużyć na pomoc”.
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="icon fa-bolt">
-                                <a href="#kryzys-psychiczny" class="feature-link">
-                                    <h3>Kryzys psychiczny</h3>
-                                    <p>
-                                        Czym jest kryzys, jak może wyglądać i gdzie szukać wsparcia,
-                                        kiedy jest naprawdę trudno.
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="icon fa-user">
-                                <a href="#niskie-poczucie-wartosci" class="feature-link">
-                                    <h3>Niskie poczucie własnej wartości</h3>
-                                    <p>
-                                        Jak może przejawiać się niska samoocena i nad czym można pracować w terapii.
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="icon fa-heart">
-                                <a href="#regulacja-emocji" class="feature-link">
-                                    <h3>Regulacja emocji</h3>
-                                    <p>
-                                        Dlaczego emocje czasem „zalewają” albo są odcinane
-                                        i co może pomagać lepiej sobie z nimi radzić.
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="icon fa-cogs">
-                                <a href="#terapia-cbt" class="feature-link">
-                                    <h3>Terapia poznawczo-behawioralna (CBT)</h3>
-                                    <p>
-                                        Na czym polega CBT, jak wygląda praca na sesjach
-                                        i komu taka forma terapii może być pomocna.
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="icon fa-stethoscope">
-                                <a href="#psycholog-psychoterapeuta-psychiatra" class="feature-link">
-                                    <h3>Psycholog, Psychoterapeuta czy Psychiatra</h3>
-                                    <p>
-                                        Krótkie wyjaśnienie różnic między specjalistami zajmującymi się zdrowiem psychicznym.
-                                    </p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+             <!-- KAFELKI / KARTY TEMATYCZNE -->
+            <section class="wrapper style5">
+                <div class="inner">
+                    <ul class="features">
+                        <li>
+                            <a href="#kiedy-konsultacja" class="feature-link">
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-comments"></i>
+                                </span>
+                                <h3>Kiedy warto zgłosić się na konsultację</h3>
+                                <p>
+                                    O tym, w jakich sytuacjach warto rozważyć spotkanie z psychologiem
+                                    i dlaczego nie trzeba „zasłużyć na pomoc”.
+                                </p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#kryzys-psychiczny" class="feature-link">
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-brain"></i>
+                                </span>
+                                <h3>Kryzys psychiczny</h3>
+                                <p>
+                                    Czym jest kryzys, jak może wyglądać i gdzie szukać wsparcia,
+                                    kiedy jest naprawdę trudno.
+                                </p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#niskie-poczucie-wartosci" class="feature-link">
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-user"></i>
+                                </span>
+                                <h3>Niskie poczucie własnej wartości</h3>
+                                <p>
+                                    Jak może przejawiać się niska samoocena i nad czym można pracować w terapii.
+                                </p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#regulacja-emocji" class="feature-link">
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-heart"></i>
+                                </span>
+                                <h3>Regulacja emocji</h3>
+                                <p>
+                                    Dlaczego emocje czasem „zalewają” albo są odcinane
+                                    i co może pomagać lepiej sobie z nimi radzić.
+                                </p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#terapia-cbt" class="feature-link">
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-cogs"></i>
+                                </span>
+                                <h3>Terapia poznawczo-behawioralna (CBT)</h3>
+                                <p>
+                                    Na czym polega CBT, jak wygląda praca na sesjach
+                                    i komu taka forma terapii może być pomocna.
+                                </p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#psycholog-psychoterapeuta-psychiatra" class="feature-link">
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-stethoscope"></i>
+                                </span>
+                                <h3>Psycholog, Psychoterapeuta czy Psychiatra</h3>
+                                <p>
+                                    Krótkie wyjaśnienie różnic między specjalistami zajmującymi się zdrowiem psychicznym.
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
 
                 <!-- TREŚCI MERYTORYCZNE -->
                 <section class="wrapper style5">

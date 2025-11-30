@@ -1,6 +1,10 @@
 document.write(`
     <!-- Header -->
     <header id="header" class="alt">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
         <h1><a href="./">WERONIKA JEKA</a></h1>
         <nav id="nav">
             <ul>
